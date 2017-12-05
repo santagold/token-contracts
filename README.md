@@ -9,9 +9,13 @@
      
    # implementation #
    OpenZeppelin code was used for SafeMath StandardToken Ownable Burnable logic
-   SafeMath provides arithmetic functions that throw exceptions when integer overflow occurs
+   
+  SafeMath provides arithmetic functions that throw exceptions when integer overflow occurs
+   
    Ownable keeps track of a contract owner and permits the transfer of ownership by the current owner
+   
    Burnable provides a burn function that reduces the balance of the burner and the total supply
+   
    StandardToken specifies functions in compliance with the ERC20 standard
    
   The token contract includes the following constants:
